@@ -1,7 +1,7 @@
 package work.contre.cleanly;
-// {}の中をブロックと呼ぶ
-public class HelloWorld {// クラスブロック
-	public static void main(String[] args) { // メソッドブロック
+
+public class HelloWorld { // クラス名は大文字から始まる。クラス名はソースファイル名と同じにする。
+	public static void main(String[] args) {
 		System.out.println("奏くんは"); 
 		System.out.println("お酒が好き");
 		System.out.println("ではありません");
