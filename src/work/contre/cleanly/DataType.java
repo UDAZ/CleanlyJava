@@ -23,6 +23,9 @@ public class DataType {
 		// 文字
 		char initial; initial = 'D';// シングルクォーテーション
 		System.out.println("charは一文字: "+ initial);
+		// 文字列
+		String name; name = "UDAZ";
+		System.out.println("Stringは文字列: " + name);
 	}
 
 }
