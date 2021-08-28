@@ -12,6 +12,11 @@ public class DataType {
 		System.out.println("shortは小さな整数" + age);
 		System.out.println("intは普通の整数"+ salary);
 		System.out.println("longは大きな数"+ worldPeople);
+		//少数を格納できる2つの型		
+		float weight; weight = 59.4F;
+		double pi; pi = 3.14;
+		System.out.println("floatは少しあいまいでも良い少数"+ weight);
+		System.out.println("doubleは普通の少数"+ pi);
 	}
 
 }
