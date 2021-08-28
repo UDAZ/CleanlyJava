@@ -20,6 +20,9 @@ public class DataType {
 		// YESかNOかを格納できるboolean型
 		boolean isError;isError = true;
 		System.out.println("booleanはtrueかfalse: " + isError);
+		// 文字
+		char initial; initial = 'D';// シングルクォーテーション
+		System.out.println("charは一文字: "+ initial);
 	}
 
 }
