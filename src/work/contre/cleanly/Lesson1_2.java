@@ -1,6 +1,6 @@
 package work.contre.cleanly;
 
-public class Lesson1_1 {
+public class Lesson1_2 {
 
 	public static void main(String[] args) {
 		int a = 3;
