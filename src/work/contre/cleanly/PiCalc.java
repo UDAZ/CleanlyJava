@@ -10,7 +10,7 @@ public class PiCalc {
 		System.out.println(pie * pie * PI);
 		System.out.println("パイの半径を倍にします");
 		
-		PI = 10;
+		// PI = 10;
 		// これで再利用できない。定数です！
 	}
 
