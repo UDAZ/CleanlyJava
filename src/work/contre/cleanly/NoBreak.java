@@ -17,6 +17,7 @@ public class NoBreak {
 			break;
 		default:
 			System.out.println("凶");
+		// case 1: でbreakしなかかったため、case 2:に突入した。
 		}
 	}
 
