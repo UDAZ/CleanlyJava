@@ -6,8 +6,8 @@ public class ArrayQuiz {
 		int[] arrayA = {1, 2, 3};
 		int[] arrayB;
 		arrayB = arrayA;
-		arrayB[0] = 100;
-		System.out.println(arrayA[0]);
+		arrayB[1] = 100;
+		System.out.println(arrayA[1]);
 		
 	}
 
