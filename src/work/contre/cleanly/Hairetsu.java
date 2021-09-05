@@ -8,8 +8,11 @@ public class Hairetsu {
 		 * 	scores = new int[5];
 		 */
 		int[] scores = new int[5];
-		int num = scores.length;
-		System.out.println("要素の数:" + num);
+		scores[1] = 30; // 2つめの要素に30を代入
+		System.out.println(scores[1]); // 2つめの要素の中身を表示
+		//int num = scores.length;
+		//System.out.println("要素の数:" + num);
+		// 配列の要素数の取得　配列変数名.length;
 	}
 
 }
