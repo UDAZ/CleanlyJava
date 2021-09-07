@@ -11,5 +11,5 @@ public class MethodMain {
 	public static void main(String[] args) {
 		methodA();
 	}
-
+	// どんな順番でもプログラムは必ずmainから動き始める
 }
