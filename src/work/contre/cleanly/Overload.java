@@ -18,7 +18,7 @@ public class Overload {
 		System.out.println(add(100,10));
 		System.out.println(add(3.2,4.5));
 		System.out.println(add("HELLO ","WORLD"));
-		//仮引数が同じであれば、同じ名前のメソッドを複数定義することが許されています。
+		//仮引数の型が異なれば、同じ名前のメソッドを複数定義することが許されています。
 	}
 
 }
