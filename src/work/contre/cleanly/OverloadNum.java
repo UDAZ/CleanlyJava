@@ -5,6 +5,7 @@ public class OverloadNum {
 	public static int add(int x, int y) {
 		return x + y;
 	}
+	// add(int x, int y)ここまでをまとめてシグネチャと呼ぶ、オーバーロードはシグネチャが一致していなければできると覚えておくとよい
 	public static int add(int x, int y, int z) {
 		return x + y + z;
 	}
