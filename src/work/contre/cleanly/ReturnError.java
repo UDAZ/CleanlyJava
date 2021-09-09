@@ -8,8 +8,8 @@ public class ReturnError {
 		add();
 	}
 	public static void add() {
-		int ans = x + y;
-		System.out.println(x+ "+" + y+"=" + ans);
+	//	int ans = x + y;
+	//	System.out.println(x+ "+" + y+"=" + ans);
 	}
 
 }
