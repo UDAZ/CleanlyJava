@@ -13,6 +13,12 @@ public class Calc {
 		System.out.println("足すと"+ total + "引くと" + delta);
 	}
 	
+	/*
+	 * 完全限定クラス名 FCQN(full qualified class name)
+	 * パッケージ名.クラス名
+	 */
+	
+	
 	// public static int tasu(int a, int b) {
 	// 	return (a + b);
 	// }
