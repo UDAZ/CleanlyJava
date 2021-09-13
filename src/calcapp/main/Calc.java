@@ -1,7 +1,7 @@
 package calcapp.main;
 
 import calcapp.logic.CalcLogic;
-
+// import宣言はあくまで「入力軽減機能」
 public class Calc {
 
 	public static void main(String[] args) {
