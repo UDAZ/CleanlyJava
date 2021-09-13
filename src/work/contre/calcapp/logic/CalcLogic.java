@@ -1,4 +1,4 @@
-package calcapp.logic;
+package work.contre.calcapp.logic;
 
 public class CalcLogic {
 	public static int tasu(int a, int b) {

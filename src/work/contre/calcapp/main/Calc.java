@@ -1,6 +1,6 @@
-package calcapp.main;
+package work.contre.calcapp.main;
 
-import calcapp.logic.CalcLogic;
+import work.contre.calcapp.logic.CalcLogic;
 // import宣言はあくまで「入力軽減機能」
 public class Calc {
 
