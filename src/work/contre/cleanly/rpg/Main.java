@@ -10,6 +10,7 @@ public class Main {
 		 * 勇者よ、戦え！
 		 * お化けキノコよ、逃げろ！
 		 */
+		Hero h;
 	}
 
 }
