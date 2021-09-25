@@ -10,7 +10,9 @@ public class Main {
 		 * 勇者よ、戦え！
 		 * お化けキノコよ、逃げろ！
 		 */
-		Hero h;
+		// 1. 勇者を生成
+		Hero h = new Hero(); // Heroクラスからインスタンスを生成し、変数hに入れる。
+		
 	}
 
 }
