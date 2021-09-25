@@ -32,4 +32,5 @@ public class Hero {
 		System.out.println("GAMEOVER");
 		System.out.println("最終HPは" + this.hp + "でした");
 	}
+	// thisを省略しない、ローカル変数や引数に同じ名前の変数があるとそちらが優先されてしまう可能性がある。
 }
