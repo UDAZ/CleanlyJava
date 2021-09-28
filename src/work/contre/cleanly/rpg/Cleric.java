@@ -1,5 +1,7 @@
 package work.contre.cleanly.rpg;
 
+import java.util.Random;
+
 public class Cleric {
 	String name;
 	int hp = 50;
@@ -16,7 +18,7 @@ public class Cleric {
 	
 	public int pray(int sec) {
 		System.out.println(this.name + "は、"+ "秒間祈った！");
-		int recover = new java.util.Random().nextInt(3) + sec;
+		int recover = new Random().nextInt(3) + sec;
 		int recoverActual = Math.min(this.MAX_HP - this.mp, recover); // どちらか小さいほう、左が現在のMPから回復できる量で右がリカバーで回復できる量。
 		this.mp += recoverActual;
 		System.out.println("MPが"+ recoverActual + "回復した");
