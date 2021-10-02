@@ -9,8 +9,8 @@ public class Hero {
 	// Hero has a Sword(勇者は剣を持っている)
 	
 	public void attack() {
-		System.out.println(this.name + "は攻撃した！");
-		System.out.println("敵に5ダメージをあたえた！");
+		System.out.println(this.name + "は" + this.sword.name + "で攻撃した！");
+		System.out.println("敵に"+ this.sword.damage +"ダメージをあたえた！");
 	}
 	
 	/*
