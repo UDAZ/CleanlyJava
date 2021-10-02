@@ -15,6 +15,7 @@ public class Main {
 		w.heal(h1); // ミナトを回復
 		w.heal(h2); // アサカを回復
 		w.heal(h2); // アサカを回復
+		System.out.println(h2.hp);
 	}
 
 }
