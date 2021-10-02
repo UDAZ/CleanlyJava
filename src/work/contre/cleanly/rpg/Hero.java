@@ -3,6 +3,15 @@ package work.contre.cleanly.rpg;
 public class Hero {
 	String name; // 名前の宣言
 	int hp; // HPの宣言
+	Sword sword; //勇者が装備している剣の情報
+	
+	// あるクラスが別のクラスをフィールドとして利用している関係をhas-aの関係という。
+	// Hero has a Sword(勇者は剣を持っている)
+	
+	public void attack() {
+		System.out.println(this.name + "は攻撃した！");
+		System.out.println("敵に5ダメージをあたえた！");
+	}
 	
 	/*
 	 * 【名前】sleep
