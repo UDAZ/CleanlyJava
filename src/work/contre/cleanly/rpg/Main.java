@@ -7,6 +7,7 @@ public class Main {
 		System.out.println(h1.name);
 		Hero h2 = new Hero();
 		System.out.println(h2.name);
+		System.out.println(h2.name);
 		// h.Hero(); のように開発者が直接呼び出すことはできない！JVMが実行しているから
 		// コンストラクタと見なされる条件
 		// ①メソッド名がクラス名と完全に等しい

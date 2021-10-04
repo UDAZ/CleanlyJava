@@ -42,13 +42,13 @@ public class Hero {
 		System.out.println("最終HPは" + this.hp + "でした");
 	}
 	
-	public Hero(String name) {
+	public Hero(String name) { // コンストラクタ①
 		this.hp = 100; // これがコンストラクタ、mewされた直後に実行される
 		this.name = name;
 	}
-	public Hero() { // コンストラクタのオーバーロード、引数が異なるメソッドを複数定義
-		this.hp = 100;
-		this.name = "ダミー";
+	public Hero() { // コンストラクタ②
+		this("ダミー"); // コンストラクタ①を呼び出すようにＪＶＭに依頼する。
+		// this(引数);
 	}
 	// thisを省略しない、ローカル変数や引数に同じ名前の変数があるとそちらが優先されてしまう可能性がある。
 }
