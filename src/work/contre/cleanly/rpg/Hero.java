@@ -41,5 +41,9 @@ public class Hero {
 		System.out.println("GAMEOVER");
 		System.out.println("最終HPは" + this.hp + "でした");
 	}
+	
+	public Hero() {
+		this.hp = 100; // これがコンストラクタ、mewされた直後に実行される
+	}
 	// thisを省略しない、ローカル変数や引数に同じ名前の変数があるとそちらが優先されてしまう可能性がある。
 }
